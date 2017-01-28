@@ -1,1 +1,1 @@
-"# angular1-webpack" 
+to run webpack dev server: npm run start

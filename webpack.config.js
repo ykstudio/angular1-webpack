@@ -21,7 +21,14 @@ module.exports = {
         {
             test: /\.css$/,
             loaders: ["css-loader"]
-        }
+        },
+        {
+    test: /\.html$/,
+    loader: 'html',
+    query: {
+      minimize: true
+    }
+  }
     ]
     }
 }
